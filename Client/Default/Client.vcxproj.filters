@@ -1,0 +1,449 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00.MainApp">
+      <UniqueIdentifier>{e082918c-7608-4b61-a259-b7d0bde29fe9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level">
+      <UniqueIdentifier>{ccd69ac7-3011-450b-9fbe-e0a0abafb033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\99.Loading">
+      <UniqueIdentifier>{f4a6348f-ce4b-42a0-b988-f31253c06627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02.GamePlay">
+      <UniqueIdentifier>{4610ea0e-ebf7-4b2f-98d4-0cd37e3f1657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\99.Loading\Loader">
+      <UniqueIdentifier>{304efe14-efd3-4d8d-beef-d72cf2ca3c91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97.Default">
+      <UniqueIdentifier>{faced698-6553-4ebb-933c-a9d07f43f5a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98.Headers">
+      <UniqueIdentifier>{3d9e41f6-a1e4-42dd-9610-adce6a4ecb04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Imgui">
+      <UniqueIdentifier>{c99f23e9-f1b3-4def-be5e-aa4c0e2c30b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Imgui\Headers">
+      <UniqueIdentifier>{f0cfdf2a-cd23-4c02-af81-8b25969bcc99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96.ShaderFiles">
+      <UniqueIdentifier>{98e330da-49ad-42ae-be60-246fd03d8bc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Imgui\Menu">
+      <UniqueIdentifier>{f764aac1-0458-47d4-b597-7b1d57fccd25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Imgui\Menu\File">
+      <UniqueIdentifier>{c51071d2-b7da-4e7d-a596-9f132bfb9515}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject">
+      <UniqueIdentifier>{71293e48-fa0f-4fe9-b6c0-e18f8ca27c8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\BackGround">
+      <UniqueIdentifier>{894d621b-80b5-4eaa-900b-8d79ac83e3e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Rect">
+      <UniqueIdentifier>{51b9145b-8c3a-4446-a700-f4e828a6c7a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Camera">
+      <UniqueIdentifier>{8f9742d8-eb87-4fc1-af28-b39e233a4f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Terrain">
+      <UniqueIdentifier>{abb00477-b9f2-454f-b1b5-85c6ee3e23ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Monster">
+      <UniqueIdentifier>{eeb73d8f-78da-4391-909b-b789f1273522}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player">
+      <UniqueIdentifier>{c0be6951-f814-494f-b449-80583bf8e1d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player\Body">
+      <UniqueIdentifier>{7dc166ac-8800-4bf5-8130-b6f3a1cbf63e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player\Weapon">
+      <UniqueIdentifier>{66d6801a-96eb-4fea-8ac8-d2814ab94afb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Sky">
+      <UniqueIdentifier>{26ab3e51-846e-4b3a-ae19-12a1922eb758}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Imgui\Menu\Model">
+      <UniqueIdentifier>{8301a6ae-4d1f-4efe-8362-500eed9e5ea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player\Weapon\LeftWeapon">
+      <UniqueIdentifier>{a45c0fbb-405a-4028-a2f5-afd84075206f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player\Weapon\RightWeapon">
+      <UniqueIdentifier>{9576bc07-8d5e-41fe-86c8-6ba3b8e061c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player\State">
+      <UniqueIdentifier>{e9a9ec07-5ba9-4cdf-8c8d-b4737496cec0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player\State\StateMgr">
+      <UniqueIdentifier>{92aeb9b1-7c6d-4d26-bef7-4a0456ff0d96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player\State\Attack">
+      <UniqueIdentifier>{af9cdccd-334c-4c18-a5fd-9dfeb656a1bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player\State\Idle">
+      <UniqueIdentifier>{1a2996eb-6026-4448-8d16-1db49c302aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player\State\Run">
+      <UniqueIdentifier>{642a26c9-aab2-455e-80ec-f7781506423c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player\State\Attack\Attack_LButton_1">
+      <UniqueIdentifier>{de704617-a82c-45d5-804c-7c65dd3dfe2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player\State\Attack\Attack_LButton_2">
+      <UniqueIdentifier>{57222c6f-fc20-4fa2-a634-aa66bb30298c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player\State\Attack\Attack_LButton_3">
+      <UniqueIdentifier>{4b8e24d1-272c-4bd9-a9c7-74c9abbcef80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Camera\CharacterCamera">
+      <UniqueIdentifier>{d26aca01-4f6c-4f41-96d9-e43517065b8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\01.Logo">
+      <UniqueIdentifier>{2d052521-6517-45a3-80d6-5e40b91179ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Boss">
+      <UniqueIdentifier>{ee430f8e-5c2e-489a-92f5-c745d2b2269b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Boss\Boss_Varg">
+      <UniqueIdentifier>{abb66342-08fb-49e5-bb6b-727f1cbc4a59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Boss\Boss_Varg\Body">
+      <UniqueIdentifier>{70bf76ee-edea-4bc3-ba11-8b0426c7dbbc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player\State\Attack\Attack_LongClaw_1">
+      <UniqueIdentifier>{f8c29783-c011-4206-b15d-7a98c224fa12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player\State\Attack\Attack_LongClaw_2">
+      <UniqueIdentifier>{3a109604-df92-4292-8e22-1884c8354f10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99.Imgui\Menu\Camera">
+      <UniqueIdentifier>{a21e3a20-e88e-493a-8723-a367207fa8d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\CameraModel">
+      <UniqueIdentifier>{0e1bf1f2-0241-4af6-9b0a-fd7b4c4d9c44}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\CubeObject">
+      <UniqueIdentifier>{c92da7b5-ac73-47b7-906c-4c1219846364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01.Level\02. GameObject\Player\Weapon\Javelin">
+      <UniqueIdentifier>{06cd7881-7ee8-40a7-8c67-43718b268edc}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>97.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>97.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>97.Default</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\MainApp.h">
+      <Filter>00.MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Client_Defines.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Logo.h">
+      <Filter>01.Level\01.Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_GamePlay.h">
+      <Filter>01.Level\02.GamePlay</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\Level_Loading.h">
+      <Filter>01.Level\99.Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Loader.h">
+      <Filter>01.Level\99.Loading\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imconfig.h">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imgui.h">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imgui_impl_dx11.h">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imgui_impl_win32.h">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imgui_internal.h">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imstb_rectpack.h">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imstb_textedit.h">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\imstb_truetype.h">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\ImguiManager.h">
+      <Filter>99.Imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>98.Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Public\BackGround.h">
+      <Filter>01.Level\02. GameObject\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Rect.h">
+      <Filter>01.Level\02. GameObject\Rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\FreeCamera.h">
+      <Filter>01.Level\02. GameObject\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Terrain.h">
+      <Filter>01.Level\02. GameObject\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Imgui_File.h">
+      <Filter>99.Imgui\Menu\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Monster.h">
+      <Filter>01.Level\02. GameObject\Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Player.h">
+      <Filter>01.Level\02. GameObject\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Body_Player.h">
+      <Filter>01.Level\02. GameObject\Player\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Sky.h">
+      <Filter>01.Level\02. GameObject\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Imgui_Model.h">
+      <Filter>99.Imgui\Menu\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\LeftWeapon.h">
+      <Filter>01.Level\02. GameObject\Player\Weapon\LeftWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\RightWeapon.h">
+      <Filter>01.Level\02. GameObject\Player\Weapon\RightWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\State.h">
+      <Filter>01.Level\02. GameObject\Player\State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\StateMgr.h">
+      <Filter>01.Level\02. GameObject\Player\State\StateMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PlayerRun.h">
+      <Filter>01.Level\02. GameObject\Player\State\Run</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\PlayerIdle.h">
+      <Filter>01.Level\02. GameObject\Player\State\Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Attack_LButton_1.h">
+      <Filter>01.Level\02. GameObject\Player\State\Attack\Attack_LButton_1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Attack_LButton_2.h">
+      <Filter>01.Level\02. GameObject\Player\State\Attack\Attack_LButton_2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Attack_LButton_3.h">
+      <Filter>01.Level\02. GameObject\Player\State\Attack\Attack_LButton_3</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CharacterCamera.h">
+      <Filter>01.Level\02. GameObject\Camera\CharacterCamera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Boss_Varg.h">
+      <Filter>01.Level\02. GameObject\Boss\Boss_Varg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Body_Varg.h">
+      <Filter>01.Level\02. GameObject\Boss\Boss_Varg\Body</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Attack_LongClaw_1.h">
+      <Filter>01.Level\02. GameObject\Player\State\Attack\Attack_LongClaw_1</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Attack_LongClaw_2.h">
+      <Filter>01.Level\02. GameObject\Player\State\Attack\Attack_LongClaw_2</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\Imgui_Camera.h">
+      <Filter>99.Imgui\Menu\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CameraModel.h">
+      <Filter>01.Level\02. GameObject\CameraModel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\public\CubeObject.h">
+      <Filter>01.Level\02. GameObject\CubeObject</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>97.Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\MainApp.cpp">
+      <Filter>00.MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Logo.cpp">
+      <Filter>01.Level\01.Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_GamePlay.cpp">
+      <Filter>01.Level\02.GamePlay</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\Level_Loading.cpp">
+      <Filter>01.Level\99.Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Loader.cpp">
+      <Filter>01.Level\99.Loading\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui.cpp">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_demo.cpp">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_draw.cpp">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_impl_dx11.cpp">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_impl_win32.cpp">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_tables.cpp">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\imgui_widgets.cpp">
+      <Filter>99.Imgui\Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\ImguiManager.cpp">
+      <Filter>99.Imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>98.Headers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Private\BackGround.cpp">
+      <Filter>01.Level\02. GameObject\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Rect.cpp">
+      <Filter>01.Level\02. GameObject\Rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\FreeCamera.cpp">
+      <Filter>01.Level\02. GameObject\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Terrain.cpp">
+      <Filter>01.Level\02. GameObject\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Imgui_File.cpp">
+      <Filter>99.Imgui\Menu\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Monster.cpp">
+      <Filter>01.Level\02. GameObject\Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Player.cpp">
+      <Filter>01.Level\02. GameObject\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Body_Player.cpp">
+      <Filter>01.Level\02. GameObject\Player\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Sky.cpp">
+      <Filter>01.Level\02. GameObject\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Imgui_Model.cpp">
+      <Filter>99.Imgui\Menu\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\LeftWeapon.cpp">
+      <Filter>01.Level\02. GameObject\Player\Weapon\LeftWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\RightWeapon.cpp">
+      <Filter>01.Level\02. GameObject\Player\Weapon\RightWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\State.cpp">
+      <Filter>01.Level\02. GameObject\Player\State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\StateMgr.cpp">
+      <Filter>01.Level\02. GameObject\Player\State\StateMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PlayerRun.cpp">
+      <Filter>01.Level\02. GameObject\Player\State\Run</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\PlayerIdle.cpp">
+      <Filter>01.Level\02. GameObject\Player\State\Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Attack_LButton_1.cpp">
+      <Filter>01.Level\02. GameObject\Player\State\Attack\Attack_LButton_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Attack_LButton_2.cpp">
+      <Filter>01.Level\02. GameObject\Player\State\Attack\Attack_LButton_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Attack_LButton_3.cpp">
+      <Filter>01.Level\02. GameObject\Player\State\Attack\Attack_LButton_3</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CharacterCamera.cpp">
+      <Filter>01.Level\02. GameObject\Camera\CharacterCamera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Boss_Varg.cpp">
+      <Filter>01.Level\02. GameObject\Boss\Boss_Varg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Body_Varg.cpp">
+      <Filter>01.Level\02. GameObject\Boss\Boss_Varg\Body</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Attack_LongClaw_1.cpp">
+      <Filter>01.Level\02. GameObject\Player\State\Attack\Attack_LongClaw_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Attack_LongClaw_2.cpp">
+      <Filter>01.Level\02. GameObject\Player\State\Attack\Attack_LongClaw_2</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\Imgui_Camera.cpp">
+      <Filter>99.Imgui\Menu\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CameraModel.cpp">
+      <Filter>01.Level\02. GameObject\CameraModel</Filter>
+    </ClCompile>
+    <ClCompile Include="..\private\CubeObject.cpp">
+      <Filter>01.Level\02. GameObject\CubeObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>97.Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>97.Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>97.Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>97.Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPosTex.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxPosNorTex.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Deferred.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxMesh.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxAnimMesh.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCube.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_Water.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\Bin\ShaderFiles\Shader_VtxCubeSky.hlsl">
+      <Filter>96.ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

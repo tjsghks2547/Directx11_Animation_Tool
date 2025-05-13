@@ -1,0 +1,27 @@
+#ifndef Engine_Enum_h__
+#define Engine_Enum_h__
+
+namespace Engine
+{
+	enum MOUSEKEYSTATE { DIM_LB, DIM_RB, DIM_MB, DIM_END };
+	enum MOUSEMOVESTATE { DIMS_X, DIMS_Y, DIMS_Z, DIMS_END };
+	enum MOUSEWHEELSTATE { WHEEL_UP, WHEEL_DOWN, WHEEL_NONE };
+
+	enum class PROTOTYPE { TYPE_GAMEOBJECT, TYPE_COMPONENT };
+
+	enum EVENT_FRAME_TYPE	
+	{
+		EVENT_SOUND,	
+		EVENT_EFFECT,	
+		EVENT_COLLIDER,
+		EVENT_STATE,	
+		EVENT_END,	
+	};
+
+	enum CAMER_LERP_METHOD
+	{
+		LINEAR_CAMERA,
+		CATMULL_ROM_CAMERA,
+	};
+}
+#endif // Engine_Enum_h__
